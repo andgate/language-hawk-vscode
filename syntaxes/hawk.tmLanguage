@@ -4,12 +4,12 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>hs</string>
+		<string>hk</string>
 	</array>
 	<key>keyEquivalent</key>
 	<string>^~H</string>
 	<key>name</key>
-	<string>Haskell</string>
+	<string>Hawk</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -18,32 +18,32 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.entity.haskell</string>
+					<string>punctuation.definition.entity.hawk</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.entity.haskell</string>
+					<string>punctuation.definition.entity.hawk</string>
 				</dict>
 			</dict>
 			<key>comment</key>
-			<string>In case this regex seems unusual for an infix operator, note that Haskell allows any ordinary function application (elem 4 [1..10]) to be rewritten as an infix expression (4 `elem` [1..10]).</string>
+			<string>In case this regex seems unusual for an infix operator, note that Hawk allows any ordinary function application (elem 4 [1..10]) to be rewritten as an infix expression (4 `elem` [1..10]).</string>
 			<key>match</key>
 			<string>(`)[\p{Ll}_][\p{Ll}_\p{Lu}\p{Lt}\p{Nd}']*(`)</string>
 			<key>name</key>
-			<string>keyword.operator.function.infix.haskell</string>
+			<string>keyword.operator.function.infix.hawk</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\(\s*\)</string>
 			<key>name</key>
-			<string>constant.language.unit.haskell</string>
+			<string>constant.language.unit.hawk</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\[\s*\]</string>
 			<key>name</key>
-			<string>constant.language.empty-list.haskell</string>
+			<string>constant.language.empty-list.hawk</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -53,7 +53,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.hawk</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -63,11 +63,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.hawk</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.declaration.module.haskell</string>
+			<string>meta.declaration.module.hawk</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -94,7 +94,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.hawk</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -104,11 +104,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.hawk</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.declaration.class.haskell</string>
+			<string>meta.declaration.class.hawk</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -132,12 +132,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.hawk</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>storage.type.haskell</string>
+					<string>storage.type.hawk</string>
 				</dict>
 				<key>3</key>
 				<dict>
@@ -147,14 +147,14 @@
 							<key>match</key>
 							<string>'*[\p{Ll}][\w\p{Nd}_']*</string>
 							<key>name</key>
-							<string>variable.other.generic-type.haskell</string>
+							<string>variable.other.generic-type.hawk</string>
 						</dict>
 					</array>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.hawk</string>
 				</dict>
 			</dict>
 		</dict>
@@ -175,7 +175,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.hawk</string>
 				</dict>
 				<key>2</key>
 				<dict>
@@ -190,7 +190,7 @@
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.hawk</string>
 				</dict>
 				<key>4</key>
 				<dict>
@@ -212,7 +212,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.hawk</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -222,11 +222,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.hawk</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.declaration.instance.haskell</string>
+			<string>meta.declaration.instance.hawk</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -243,20 +243,20 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.hawk</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>($|;|(?=--))</string>
 			<key>name</key>
-			<string>meta.import.haskell</string>
+			<string>meta.import.hawk</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>match</key>
 					<string>(qualified|as|hiding)</string>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.hawk</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -276,13 +276,13 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.hawk</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>\)</string>
 			<key>name</key>
-			<string>meta.deriving.haskell</string>
+			<string>meta.deriving.hawk</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -299,16 +299,16 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.hawk</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.other.inherited-class.haskell</string>
+					<string>entity.other.inherited-class.hawk</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.deriving.haskell</string>
+			<string>meta.deriving.hawk</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -324,19 +324,19 @@
 			)\b
 			</string>
 			<key>name</key>
-			<string>keyword.other.haskell</string>
+			<string>keyword.other.hawk</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\binfix[lr]?\b</string>
 			<key>name</key>
-			<string>keyword.operator.haskell</string>
+			<string>keyword.operator.hawk</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\b(do|if|then|else)\b</string>
 			<key>name</key>
-			<string>keyword.control.haskell</string>
+			<string>keyword.control.hawk</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -344,13 +344,13 @@
 			<key>match</key>
 			<string>\b([0-9]+\.[0-9]+([eE][+-]?[0-9]+)?|[0-9]+[eE][+-]?[0-9]+)\b</string>
 			<key>name</key>
-			<string>constant.numeric.float.haskell</string>
+			<string>constant.numeric.float.hawk</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\b([0-9]+|0([xX][0-9a-fA-F]+|[oO][0-7]+))\b</string>
 			<key>name</key>
-			<string>constant.numeric.haskell</string>
+			<string>constant.numeric.hawk</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -362,7 +362,7 @@
 				</dict>
 			</dict>
 			<key>comment</key>
-			<string>In addition to Haskell's "native" syntax, GHC permits the C preprocessor to be run on a source file.</string>
+			<string>In addition to Hawk's "native" syntax, HKC permits the C preprocessor to be run on a source file.</string>
 			<key>match</key>
 			<string>^\s*(#)\s*\w+</string>
 			<key>name</key>
@@ -380,7 +380,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.begin.haskell</string>
+					<string>punctuation.definition.string.begin.hawk</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -390,30 +390,30 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.end.haskell</string>
+					<string>punctuation.definition.string.end.hawk</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>string.quoted.double.haskell</string>
+			<string>string.quoted.double.hawk</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>match</key>
 					<string>\\(NUL|SOH|STX|ETX|EOT|ENQ|ACK|BEL|BS|HT|LF|VT|FF|CR|SO|SI|DLE|DC1|DC2|DC3|DC4|NAK|SYN|ETB|CAN|EM|SUB|ESC|FS|GS|RS|US|SP|DEL|[abfnrtv\\\"'\&amp;])</string>
 					<key>name</key>
-					<string>constant.character.escape.haskell</string>
+					<string>constant.character.escape.hawk</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\\o[0-7]+|\\x[0-9A-Fa-f]+|\\[0-9]+</string>
 					<key>name</key>
-					<string>constant.character.escape.octal.haskell</string>
+					<string>constant.character.escape.octal.hawk</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\^[A-Z@\[\]\\\^_]</string>
 					<key>name</key>
-					<string>constant.character.escape.control.haskell</string>
+					<string>constant.character.escape.control.hawk</string>
 				</dict>
 				<dict>
 					<key>begin</key>
@@ -423,7 +423,7 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>constant.character.escape.begin.haskell</string>
+							<string>constant.character.escape.begin.hawk</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -433,7 +433,7 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>constant.character.escape.end.haskell</string>
+							<string>constant.character.escape.end.hawk</string>
 						</dict>
 					</dict>
 					<key>patterns</key>
@@ -442,7 +442,7 @@
 							<key>match</key>
 							<string>\S+</string>
 							<key>name</key>
-							<string>invalid.illegal.character-not-allowed-here.haskell</string>
+							<string>invalid.illegal.character-not-allowed-here.hawk</string>
 						</dict>
 					</array>
 				</dict>
@@ -454,32 +454,32 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.begin.haskell</string>
+					<string>punctuation.definition.string.begin.hawk</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>constant.character.escape.haskell</string>
+					<string>constant.character.escape.hawk</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>constant.character.escape.octal.haskell</string>
+					<string>constant.character.escape.octal.hawk</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>constant.character.escape.hexadecimal.haskell</string>
+					<string>constant.character.escape.hexadecimal.hawk</string>
 				</dict>
 				<key>5</key>
 				<dict>
 					<key>name</key>
-					<string>constant.character.escape.control.haskell</string>
+					<string>constant.character.escape.control.hawk</string>
 				</dict>
 				<key>6</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.end.haskell</string>
+					<string>punctuation.definition.string.end.hawk</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -497,7 +497,7 @@
 			(')
 			</string>
 			<key>name</key>
-			<string>string.quoted.single.haskell</string>
+			<string>string.quoted.single.hawk</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -514,7 +514,7 @@
                   )
                   (?:\s*,\s*\g&lt;fn&gt;)?
                 )
-                \s*(::)</string>
+                \s*(\?)</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>2</key>
@@ -525,7 +525,7 @@
 							<key>match</key>
 							<string>[\p{Ll}_][\p{Ll}_\p{Lu}\p{Lt}\p{Nd}']*</string>
 							<key>name</key>
-							<string>entity.name.function.haskell</string>
+							<string>entity.name.function.hawk</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -536,11 +536,11 @@
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.double-colon.haskell</string>
+					<string>keyword.other.double-colon.hawk</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.function.type-declaration.haskell</string>
+			<string>meta.function.type-declaration.hawk</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -566,13 +566,13 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(::)</string>
+			<string>(\?)</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.double-colon.haskell</string>
+					<string>keyword.other.double-colon.hawk</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -582,7 +582,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.haskell</string>
+					<string>keyword.other.hawk</string>
 				</dict>
 			</dict>
 			<key>patterns</key>
@@ -593,21 +593,21 @@
 				</dict>
 			</array>
 			<key>name</key>
-			<string>meta.type-declaration.haskell</string>
+			<string>meta.type-declaration.hawk</string>
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>In case this regex seems overly general, note that Haskell permits the definition of new operators which can be nearly any string of punctuation characters, such as $%^&amp;*.</string>
+			<string>In case this regex seems overly general, note that Hawk permits the definition of new operators which can be nearly any string of punctuation characters, such as $%^&amp;*.</string>
 			<key>match</key>
 			<string>[\p{S}\p{P}&amp;&amp;[^(),;\[\]`{}_"']]+</string>
 			<key>name</key>
-			<string>keyword.operator.haskell</string>
+			<string>keyword.operator.hawk</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>,</string>
 			<key>name</key>
-			<string>punctuation.separator.comma.haskell</string>
+			<string>punctuation.separator.comma.hawk</string>
 		</dict>
 	</array>
 	<key>repository</key>
@@ -617,19 +617,19 @@
 			<key>applyEndPatternLast</key>
 			<integer>1</integer>
 			<key>begin</key>
-			<string>\{-(?!#)</string>
+			<string>/\*</string>
 			<key>captures</key>
 			<dict>
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.comment.haskell</string>
+					<string>punctuation.definition.comment.hawk</string>
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>-\}</string>
+			<string>\*\\</string>
 			<key>name</key>
-			<string>comment.block.haskell</string>
+			<string>comment.block.hawk</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -644,37 +644,37 @@
 			<array>
 				<dict>
 					<key>begin</key>
-					<string>^\s*(--\s+\|)</string>
+					<string>^\s*(//)</string>
 					<key>beginCaptures</key>
 					<dict>
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.whitespace.comment.leading.haskell</string>
+							<string>punctuation.whitespace.comment.leading.hawk</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>(?=^(?!\s*--\s))</string>
 					<key>name</key>
-					<string>comment.block.documentation.haskell</string>
+					<string>comment.block.documentation.hawk</string>
 				</dict>
 				<dict>
 					<key>applyEndPatternLast</key>
 					<integer>1</integer>
 					<key>begin</key>
-					<string>\{-\|</string>
+					<string>/\*</string>
 					<key>captures</key>
 					<dict>
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.comment.haskell</string>
+							<string>punctuation.definition.comment.hawk</string>
 						</dict>
 					</dict>
 					<key>end</key>
-					<string>-\}</string>
+					<string>\*/</string>
 					<key>name</key>
-					<string>comment.block.documentation.haskell</string>
+					<string>comment.block.documentation.hawk</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -691,7 +691,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.whitespace.comment.leading.haskell</string>
+							<string>punctuation.whitespace.comment.leading.hawk</string>
 						</dict>
 					</dict>
 					<key>comment</key>
@@ -702,19 +702,19 @@
 					<array>
 						<dict>
 							<key>begin</key>
-							<string>--</string>
+							<string>//</string>
 							<key>beginCaptures</key>
 							<dict>
 								<key>0</key>
 								<dict>
 									<key>name</key>
-									<string>punctuation.definition.comment.haskell</string>
+									<string>punctuation.definition.comment.hawk</string>
 								</dict>
 							</dict>
 							<key>end</key>
 							<string>\n</string>
 							<key>name</key>
-							<string>comment.line.double-dash.haskell</string>
+							<string>comment.line.double-dash.hawk</string>
 						</dict>
 					</array>
 				</dict>
@@ -732,7 +732,7 @@
 					<key>match</key>
 					<string>\b[\p{Lu}\p{Lt}][\p{Ll}_\p{Lu}\p{Lt}\p{Nd}']*</string>
 					<key>name</key>
-					<string>entity.other.inherited-class.haskell</string>
+					<string>entity.other.inherited-class.hawk</string>
 				</dict>
 				<dict>
 					<key>begin</key>
@@ -756,7 +756,7 @@
 			<key>match</key>
 			<string>(\((?!--+\))[\p{S}\p{P}&amp;&amp;[^(),;\[\]`{}_"']]+\)|\(,+\))</string>
 			<key>name</key>
-			<string>entity.name.function.infix.haskell</string>
+			<string>entity.name.function.infix.hawk</string>
 		</dict>
 		<key>module_exports</key>
 		<dict>
@@ -765,26 +765,26 @@
 			<key>end</key>
 			<string>\)</string>
 			<key>name</key>
-			<string>meta.declaration.exports.haskell</string>
+			<string>meta.declaration.exports.hawk</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>match</key>
 					<string>\b[\p{Ll}_][\p{Ll}_\p{Lu}\p{Lt}\p{Nd}']*</string>
 					<key>name</key>
-					<string>entity.name.function.haskell</string>
+					<string>entity.name.function.hawk</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b[\p{Lu}\p{Lt}][\p{Ll}_\p{Lu}\p{Lt}\p{Nd}']*</string>
 					<key>name</key>
-					<string>storage.type.haskell</string>
+					<string>storage.type.hawk</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>,</string>
 					<key>name</key>
-					<string>punctuation.separator.comma.haskell</string>
+					<string>punctuation.separator.comma.hawk</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -796,7 +796,7 @@
 					<key>match</key>
 					<string>\(.*?\)</string>
 					<key>name</key>
-					<string>meta.other.unknown.haskell</string>
+					<string>meta.other.unknown.hawk</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -809,7 +809,7 @@
 			<key>match</key>
 			<string>(?&lt;conid&gt;[\p{Lu}\p{Lt}][\p{Ll}_\p{Lu}\p{Lt}\p{Nd}']*(\.\g&lt;conid&gt;)?)</string>
 			<key>name</key>
-			<string>support.other.module.haskell</string>
+			<string>support.other.module.hawk</string>
 		</dict>
 		<key>pragma</key>
 		<dict>
@@ -818,14 +818,14 @@
 			<key>end</key>
 			<string>#-\}</string>
 			<key>name</key>
-			<string>meta.preprocessor.haskell</string>
+			<string>meta.preprocessor.hawk</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>match</key>
 					<string>\b(LANGUAGE|OPTIONS_GHC|INCLUDE|WARNING|DEPRECATED|MINIMAL|UNPACK|NOUNPACK|SOURCE|OVERLAPPING|OVERLAPPABLE|OVERLAPS|INCOHERENT|INLINE|NOINLINE|INLINABLE|CONLIKE|LINE|RULES|SPECIALIZE|SPECIALISE)\b</string>
 					<key>name</key>
-					<string>keyword.other.preprocessor.haskell</string>
+					<string>keyword.other.preprocessor.hawk</string>
 				</dict>
 			</array>
 		</dict>
@@ -834,7 +834,7 @@
 			<key>match</key>
 			<string>\b[\p{Lu}\p{Lt}][\p{Ll}_\p{Lu}\p{Lt}\p{Nd}']*\b</string>
 			<key>name</key>
-			<string>constant.other.haskell</string>
+			<string>constant.other.hawk</string>
 		</dict>
 		<key>type_signature</key>
 		<dict>
@@ -844,7 +844,7 @@
 					<key>match</key>
 					<string>\(\s*\)</string>
 					<key>name</key>
-					<string>support.constant.unit.haskell</string>
+					<string>support.constant.unit.hawk</string>
 				</dict>
 				<dict>
 					<key>begin</key>
@@ -871,21 +871,21 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>entity.other.inherited-class.haskell</string>
+							<string>entity.other.inherited-class.hawk</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>variable.other.generic-type.haskell</string>
+							<string>variable.other.generic-type.hawk</string>
 						</dict>
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.other.big-arrow.haskell</string>
+							<string>keyword.other.big-arrow.hawk</string>
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>meta.class-constraint.haskell</string>
+					<string>meta.class-constraint.hawk</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -895,31 +895,31 @@
 					<key>match</key>
 					<string>-&gt;</string>
 					<key>name</key>
-					<string>keyword.other.arrow.haskell</string>
+					<string>keyword.other.arrow.hawk</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(forall)\b</string>
 					<key>name</key>
-					<string>keyword.other.forall.haskell</string>
+					<string>keyword.other.forall.hawk</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>=&gt;</string>
 					<key>name</key>
-					<string>keyword.other.big-arrow.haskell</string>
+					<string>keyword.other.big-arrow.hawk</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b[\p{Ll}_][\p{Ll}_\p{Lu}\p{Lt}\p{Nd}']*</string>
 					<key>name</key>
-					<string>variable.other.generic-type.haskell</string>
+					<string>variable.other.generic-type.hawk</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b[\p{Lu}\p{Lt}][\p{Ll}_\p{Lu}\p{Lt}\p{Nd}']*</string>
 					<key>name</key>
-					<string>storage.type.haskell</string>
+					<string>storage.type.hawk</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -929,7 +929,7 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>source.haskell</string>
+	<string>source.hawk</string>
 	<key>uuid</key>
 	<string>5C034675-1F6D-497E-8073-369D37E2FD7D</string>
 </dict>

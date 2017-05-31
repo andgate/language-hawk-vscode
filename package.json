@@ -1,9 +1,9 @@
 {
-	"name": "language-haskell",
-    "displayName": "Haskell Syntax Highlighting",
-	"description": "Syntax highlighting and snippets for the Haskell programming language.",
-	"version": "2.2.0",
-    "publisher": "justusadam",
+	"name": "language-hawk",
+    "displayName": "Hawk Syntax Highlighting",
+	"description": "Syntax highlighting and snippets for the Hawk programming language.",
+	"version": "0.1.0",
+    "publisher": "andgate",
 	"engines": {
 		"vscode": "^0.10.0"
 	},
@@ -13,61 +13,41 @@
         "theme": "dark"
     },
     "keywords": [
-        "language", "haskell", "highlight", "syntax"
+        "language", "hawk", "highlight", "syntax"
     ],
     "license": "BSD-3-Clause",
-    "homepage": "https://github.com/JustusAdam/language-haskell",
+    "homepage": "https://github.com/andgate/language-hawk-vscode",
     "repository": {
         "type": "git",
-        "url": "https://github.com/JustusAdam/language-haskell.git"
+        "url": "https://github.com/andgate/language-hawk-vscode.git"
     },
     "bugs": {
-        "url": "https://github.com/JustusAdam/language-haskell/issues",
-        "email": "dev@justus.science"
+        "url": "https://github.com/andgate/language-hawk-vscode/issues",
+        "email": "gabe4k@gmail.com"
     },
     "categories": [
         "Languages",
         "Snippets"
     ],
     "activationEvents": [
-        "onLanguage:haskell"
+        "onLanguage:hawk"
     ],
     "main": "./out/src/extension",
     "contributes": {
         "languages": [{
-            "id": "haskell",
-            "aliases": ["Haskell", "haskell"],
-            "extensions": [".hs"],
-            "configuration": "./haskell-configuration.json"
-        }, {
-            "id": "cabal",
-            "aliases": ["cabal", "Cabal"],
-            "extensions": [
-                ".cabal"
-            ],
-            "configuration": "./cabal-configuration.json"
-        }, {
-            "id": "literate haskell",
-            "aliases": ["Literate Haskell", "literate Haskell"],
-            "extensions": [".lhs"],
-            "configuration": "./haskell-configuration.json"
+            "id": "hawk",
+            "aliases": ["Hawk", "hawk"],
+            "extensions": [".hk"],
+            "configuration": "./hawk-configuration.json"
         }],
         "grammars": [{
-            "language": "haskell",
-            "scopeName": "source.haskell",
-            "path": "./syntaxes/haskell.tmLanguage"
-        }, {
-            "language": "cabal",
-            "scopeName": "source.cabal",
-            "path": "./syntaxes/cabal.tmLanguage"
-        }, {
-            "language": "literate haskell",
-            "scopeName": "text.tex.latex.haskell",
-            "path": "./syntaxes/literateHaskell.tmLanguage"
+            "language": "hawk",
+            "scopeName": "source.hawk",
+            "path": "./syntaxes/hawk.tmLanguage"
         }],
         "snippets": [{
-            "language": "haskell",
-            "path": "./snippets/haskell.json"
+            "language": "hawk",
+            "path": "./snippets/hawk.json"
         }]
     },
     "scripts": {
